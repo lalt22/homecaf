@@ -1,0 +1,19 @@
+.sound {
+    display: flex;
+    // outline: 1px solid black;
+    width: 30%;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+
+    & svg {
+        margin-right: auto;
+        :hover {
+            cursor: pointer;
+        }
+    }
+
+    & input {
+        margin-left: auto;
+    }
+}
